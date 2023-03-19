@@ -37,6 +37,7 @@ public class FirstTestClass {
     public void test3(){
         driver.findElement(By.name("add-to-cart-sauce-labs-backpack")).click();
         driver.findElement(By.id("add-to-cart-sauce-labs-backpack")).click();
+        driver.findElement(By.xpath("add-to-cart-sauce-labs-backpack")).click();
     }
 
     @Test
